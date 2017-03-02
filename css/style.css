@@ -1,0 +1,151 @@
+body{
+	min-width: 1200px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	font-family: "Roboto", "Arial", sans-serif;
+	color: #2a5885;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	font-size: 16px;
+	width: 1146px;
+	margin: 0 auto;
+	padding: 0 27px;
+}
+
+.main-header{
+	margin-top: -22px;
+	margin-bottom: 80px;
+	background: #507299;
+	color: #fff;
+}
+
+.gallery-header{
+	margin-top: -22px;
+	margin-bottom: 20px;
+	background: #507299;
+	color: #fff;
+}
+
+.main-title{
+	padding-top: 25px; 
+	text-align: center;
+}
+
+.examples{
+	text-align: center;
+}
+
+.features {
+	border-bottom: 1px solid black;
+  	margin-bottom: 42px;
+}
+
+.features-item {
+  	float: left;
+  	width: 355px;
+  	margin-right: 40px;
+}
+
+.features-item:last-child {
+  	margin-right: 0;
+}
+
+.features-item::before {
+  	content: "";
+  	position: relative;
+  	display: block;
+  	width: 20px;
+  	height: 20px;
+  	margin-left: 170px;
+  	top: 0;
+  	background-color: #2a5885;
+  	border-radius: 15px;
+}
+
+.gallery{
+	float: left;
+  	width: 355px;
+  	margin-right: 40px;
+  	margin-bottom: 50px;
+}
+
+.gallery:last-child{
+	margin-right: 0;
+}
+
+.gallery-link{
+	text-decoration: none;
+}
+
+.gallery:hover{
+	background: rgba(9,125,239,.4);
+	border-radius: 15px;
+	height: 375px;
+}
+
+.gallery-description{
+	text-align: center;
+}
+
+.contact{
+	background: #507299;
+	color: #fff;
+}
+
+.contacts{
+	float: left;
+	text-align: left;
+	display: inline-block;
+}
+
+.phones{
+	width: 400px;
+}
+
+.mail{
+	width: 400px;
+}
+
+.social-btn{
+	display: inline-block;
+	vertical-align: top;
+	width: 31px;
+	height: 31px;
+	margin-right: 9px;
+	border-radius: 50%;
+	border: 3px solid rgba(255,255,255,.5);
+}
+
+.social-btn:hover{
+	border: 3px solid #dbe3de;
+}
+
+.social-btn:active{
+	box-shadow: inset 1px 2px 1px 1px rgba(0,0,0,.4)
+}
+
+.social-btn-vk{
+	background: url("../img/13vk.svg") no-repeat 50% 50%;
+	
+}
+
+.breadcrumbs li{
+	display: inline;
+	margin-right: 5px;
+}
+
+.photo{
+	display: inline-block;
+	height: 355;
+	width: 355;
+}
